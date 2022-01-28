@@ -5,7 +5,6 @@
     font-family: sans-serif;
 }
 header {
-    padding: 5px;
     display: flex;
 }
 header i {
@@ -62,11 +61,10 @@ header i {
 }
 .container {
     display: flex;
-    height: 914px;
 }
 .sol {
     flex-basis: 400px;  
-    padding: 10px;
+    padding: 0 10px;
 }
 .sol-yuxari {
     display: flex;
@@ -124,6 +122,7 @@ header i {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    margin-right: 7px;
 }
 .orta {
     border: 1px solid #E5E5E5;
@@ -168,12 +167,12 @@ header i {
     border: none;
     outline: none;
     font-size: 15px;
-    background-color: #F0F2F5;
+    background-color: #e0e0e0;
     border-radius: 20px;
 }
 .orta-asagi i {
     font-size: 20px;
-    padding: 10px;
+    padding: 7px;
     align-items: center;
     color: #0080FF;
     cursor: pointer;
