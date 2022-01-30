@@ -56,6 +56,7 @@ header i {
     background-color: #F0F2F5;
 }
 .ust-sağ {
+    display: flex;
     justify-content: flex-end;
     padding-top: 10px;
 }
@@ -111,12 +112,11 @@ header i {
     align-items: center;
     border-radius: 7px;
     cursor: pointer;
-    color: #686868;
     font-style: calc(#0080FF);
 }
 .zuck:hover {
     background-color: #EAF3FF;
-    transition: .5s;
+    transition: .3s;
 }
 .zuck img {
     width: 50px;
@@ -125,7 +125,7 @@ header i {
     margin-right: 7px;
 }
 .orta {
-    border: 1px solid #E5E5E5;
+    border: 1px solid #e5e5e5;
     flex: 1;
 }
 .orta-yuxari {
